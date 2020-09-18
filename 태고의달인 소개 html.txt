@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+
+    <div class="nav-container">
+      <div class="logo-items">
+        <img src="https://mblogthumb-phinf.pstatic.net/MjAxODA2MjdfMTEy/MDAxNTMwMTAwOTUyMTg2.UmZvuPnxYt6V6ilijCVR3Pru-G0haGrBwXASh0O-iQog.D_5euSiKIrTkh4G7WHvwlf7iCfKh3ffcFOgAYAoHv7og.PNG.kyh941031/%ED%83%9C%EA%B3%A0.png?type=w800"width="200"height="70">
+      </div>
+      <div class="nav-items"><a href="#">태고의달인이란?</a></div>
+       <div class="nav-items"><a href="#">태고의달인 인기노래  </a></div>
+        <div class="nav-items"><a href="#">캐릭터</a> </div>
+         <div class="nav-items"><a href="#">위치</a> </div>
+    </div>
+
+    <div class="main-contents">
+      <div class="main-image">
+        <img src="https://store.nintendo.co.kr/media/catalog/product/cache/af8eecace9e447bfff495a50ab876c4d/6/0/609021b899d3e121e46b5568a66a1e93c961fcc4f97646eb3887252ac2eab292.jpg"width="1440">
+      </div>
+      <h1>Character</h1>
+      <div class="taiko-title">
+        
+        <div class="dong1">
+         <img src="https://pbs.twimg.com/profile_images/515361950570512384/QuTZgt0y.png"width="233" height="303">
+         <div class="dong">저기 빨간색 귀여운 친구는 동이에요</div>
+         <div class="history-dong">
+          2020년 기준 20살의 동이<br>
+          천진난만하고 즐거운것을 좋아하는동이.
+
+         </div>
+      </div>
+        
+      
+      <div class="cat1">
+        <img src="https://cdn.gamemeca.com/gmdb/g001/00/01/169353_233303.jpg">
+        <div class="catchang">
+       파란색 북친구 딱이입니다.
+      </div>
+      <div class="history-tak">
+        2020년 기준 20살의 딱이<br>
+        동이와 쌍둥이 이자 동이의 동생<br>
+        느티나무 제질로 만들어진 귀여운친구.
+
+      </div>
+      </div>
+
+      <div class="meka">
+        <img src="https://w.namu.la/s/fcbf5628b7ed2e80a5f70bed6a7e83d77f3152fd55069e2784416f00764cfae15005e0552ee8be6e101a4bf2d9efa0e3de045d7931dcd4505984bb3664c640699496c8e46d7994663720b19fa062c649fd4b9da65d4f1ed9051abf34d66e35cd"width="233"height="303">
+        <div class="mekachang">
+          나이도 알수없는 미스테리한녀석<br>
+          세계최고의 태고 능력을 가진 어마무시한녀석입니다.
+
+    </div>
+      </div>
+
+      </div>
+
+      <div class="taikointro">
+        <h1>태고의달인이 무엇일까요?</h1>
+        <div class="taiko-video">
+         <iframe width="900" height="700" src="https://www.youtube.com/embed/6kjlCrn_mmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <div class="introduce">
+           태고의달인은 북채를 이용하여 리듬에맞춰 북을 치는<br>
+           리듬액션 게임이랍니다.
+
+         </div>
+      </div>
+      <div class="taiko-play">
+        <h1>웹태고..?!</h1>
+        <div class="taiko2">
+       태고의달인은 오락실 뿐만아니라 pc에서도 할수있습니다.
+       어느 훌륭한 개발자분이 자바스크립트로 태고의달인을 만들었어요!
+       <div class="web-taiko">
+       <img src="https://pbs.twimg.com/media/Dw__2uJV4AAhSBx.jpg"width="900">
+
+
+       </div>
+       <div class="play-button">
+         <div class="button-items">
+          <a href="https://taiko.bui.pm/">웹 태고의달인 플레이하기</a>
+         </div>
+
+       </div>
+        </div>
+
+      </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

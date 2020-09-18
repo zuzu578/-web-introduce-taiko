@@ -1,0 +1,62 @@
+*{
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+
+}
+a{
+  color: #e63538;
+  
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  width:1440px;
+}
+
+.nav-items{
+  padding-left:80px;
+}
+h1{
+  text-align: center;
+  padding-top:300px;
+  padding-bottom:100px;
+}
+.taiko-title{
+  display: flex;
+  margin-top:200px;
+  width:900px;
+  margin:0 auto;
+}
+.cat1{
+  margin-left:100px;
+}
+.meka{
+  margin-left:40px;
+}
+.taiko-video{
+  text-align: center;
+}
+.taiko-play{
+  width:900px;
+  margin:0 auto;
+}
+
+.taiko2{
+  text-align: center;
+  padding-bottom:60px;
+}
+
+.play-button{
+ 
+  border:1px solid #fe924a;
+  width:200px;
+  height:70px ;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top:70px;
+  background:#fe924a;
+  line-height: 70px;
+  text-align: center;
+}
