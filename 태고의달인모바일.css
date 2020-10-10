@@ -1,0 +1,359 @@
+body{
+  background:url("https://app.taiko-ch.net/images/common/bg.jpg");
+}
+
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.header-container{
+  background:url("https://app.taiko-ch.net/images/common/bg_header.jpg");
+
+}
+.sns-icons img{
+  width:30px;
+  margin-left:10px;
+
+}
+
+.header-images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:RGB(31, 34, 42);
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom:3px solid white;
+
+ 
+
+
+
+  
+}
+
+
+
+.sns-icons{
+  display: flex;
+  
+}
+
+.sns-2{
+  display: none;
+  justify-content: space-evenly;
+}
+.sns1 {
+  text-align: center;
+}
+
+.sns2{
+  text-align: center;
+}
+
+.sns3 {
+  text-align: center;
+}
+.sns1{
+  background:#3a589c;
+    width:100%;
+}
+
+.sns2{
+  background:RGB(0, 176, 236);
+    width:100%;
+}
+
+.sns3{
+  background:RGB(3, 194, 0);
+  width:100%;
+}
+
+.main-banner-images{
+  text-align: center;
+ 
+
+}
+
+.mobile-download{
+  display: flex;
+
+}
+
+.ios img{
+width:80%;
+
+
+
+
+}
+
+.ios{
+
+
+
+}
+
+.android{
+
+
+}
+
+.mobile{
+  text-align: center;
+}
+
+.main-banner-images img {
+ 
+  width:80%;
+}
+
+.android img{
+width:80%;
+
+
+
+
+}
+
+.mobile-download{
+  
+
+}
+.left-items{
+ 
+}
+.right-items{
+
+
+}
+.main3-contents{
+  display: flex;
+   
+  
+  justify-content: center;
+width:100%;
+}
+
+
+.image1 img{
+  width:100%;
+}
+
+.news-title img{
+  width:100%;
+}
+
+.tete{
+  display: flex;
+}
+
+.right-items{
+  border:4px solid RGB(247, 73, 41);
+  border-radius: 10px;
+  background:white; 
+  font-size:14px;
+
+  
+
+  
+
+}
+
+.new-items{
+  border: 4px solid RGB(255, 243, 141);
+  border-radius: 10px;
+  padding:20px;
+
+
+}
+
+.title-text{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.right-items{
+
+
+ width:100%;
+ margin-top:10px;
+
+
+}
+
+
+
+.left-items{
+  width:100%;
+}
+
+.image1 img{
+  width:100%;
+}
+
+
+
+.sub-text p {
+  border-bottom: 1px dotted #bebebe;
+  padding-bottom:5px;
+
+}
+
+.image1{
+ padding-top:10px;
+
+}
+
+.line2{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.line1{
+  display: flex;
+  justify-content: center;
+    
+}
+
+.image1-1{
+  margin-right:40px;
+
+
+}
+
+.image1-3{
+  margin-right:40px;
+
+}
+
+.taiko-image-box{
+  margin-top:30px;
+
+}
+
+.line1{
+  padding-bottom:10px;
+
+
+}
+
+.small-box{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+
+}
+
+.line2-1{
+  display: flex;
+
+}
+
+.line2-2{
+
+display: flex;
+
+}
+
+.image2-1{
+  margin-right: 20px;
+
+}
+
+.image2-2{
+margin-right:20px;
+
+}
+
+.image3-2{
+  margin-left:20px;
+
+}
+.image3-1{
+  margin-left:20px;
+
+}
+
+.image1-1 img{
+  width:100%;
+}
+
+.image1-2 img{
+  width:100%;
+}
+
+.image1-3 img{
+  width:100%;
+}
+
+.image1-4 img{
+  width:100%;
+}
+
+.image2-1{
+  width:100%;
+}
+
+
+.image2-2{
+  width:100%;
+}
+
+.image3-1{
+  width: 100%;
+}
+
+
+.image3-2{
+  width: 100%;
+}
+
+
+
+@media screen and (max-width:950px) {
+  .sns{
+    display: none;
+  }
+
+  .sns-2{
+   
+    display: flex;
+  }
+
+  .main-banner-images img{
+    width:100%;
+  }
+  .mobile-download{
+    flex-direction: column;
+  }
+
+    .android img{
+    width:100%;
+
+    }
+    .ios img{
+      width:100%;
+    }
+
+    .main3-contents{
+      flex-direction: column;
+    }
+
+    .line1{
+      flex-direction: column;
+    }
+    .line2{
+      flex-direction: column;
+    }
+     .line2-1{
+       flex-direction: column;
+     }
+     .line2-2{
+       flex-direction: column;
+     }
+}
