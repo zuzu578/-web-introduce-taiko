@@ -1,0 +1,151 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background:url(https://switch-adventure.taiko-ch.net/images/top/mv.jpg)  no-repeat top center;
+  background-size: 160%;
+
+
+}
+
+.header-images{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width:100%;
+  
+}
+.header-items img{
+  width:100%;
+}
+
+.main1-text-images{
+ 
+
+ padding-top:70px;
+ width:100%;
+}
+.title1{
+  text-align: center;
+}
+.title1 img{
+  width:40%;
+  text-align: center;
+}
+a:hover{
+transition: .2s ease-in-out;
+backface-visibility: hidden;
+}
+
+
+
+
+.main2-contents{
+padding-top:30px;
+width: 100%;
+    background: linear-gradient(45deg, #fafafa 25%, transparent 25%, transparent 75%, #fafafa 75%),linear-gradient(45deg, #fafafa 25%, transparent 25%, transparent 75%, #fafafa 75%);
+    background-image: linear-gradient(45deg, rgb(250, 250, 250) 25%, transparent 25%, transparent 75%, rgb(250, 250, 250) 75%), linear-gradient(45deg, rgb(250, 250, 250) 25%, transparent 25%, transparent 75%, rgb(250, 250, 250) 75%);
+    background-position-x: 0px, 25px;
+    background-position-y: 0px, 25px;
+    background-size: 50px 50px;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: #fff;
+    background-color: #fff;
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+    background-position-x: 0px, 25px;
+    background-position-y: 0px, 25px;
+    display: flex;
+    padding-bottom:50px;
+}
+
+.taiko-ul-images1{
+  display: flex;
+}
+.taiko-ul-images2{
+  display: flex;
+}
+.ul-taiko{
+  padding-left:20px;
+  padding-right:20px;
+}
+.ul-taiko img{
+
+width:100%;
+}
+
+
+.movie-title{
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:10px;
+
+}
+
+.main3{
+  background:url("https://switch-adventure.taiko-ch.net/images/top/bg_movie.png");
+}
+.movie-title img{
+  width:20%;
+}
+
+.movie-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie-images img{
+  width:100%;
+}
+
+.movie-container{
+  padding-bottom:60px;
+}
+
+.main4{
+  background:url("https://switch-adventure.taiko-ch.net/images/top/bg_about.png");
+}
+.text-images-items{
+  padding-bottom:20px;
+}
+.text-images-items img{
+
+  width:100%;
+}
+.main4-contents{
+  width:80%;
+    margin: 0 auto;
+    padding: 5%;
+   background:white; 
+   border-radius: 30px;
+  
+
+}
+
+.software-images{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.software img{
+width: 100%;
+}
+
+.software-information{
+  text-align: center;
+}
+
+@media screen and (max-width:800px){
+  .main2-contents{
+  flex-direction: column;
+  }
+  .movie-container{
+    flex-direction: column;
+  }
+} 
