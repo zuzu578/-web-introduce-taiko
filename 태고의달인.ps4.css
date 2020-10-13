@@ -1,0 +1,141 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background: #1b1e5a;
+}
+
+.nav-container{
+  background:#1b1e5a;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.nav-line1{
+display: flex;
+}
+.nav-items img{
+  width: 100%;
+}
+.nav-line2{
+display: flex;
+}
+
+.main1{
+ 
+ background:url("https://taikops4-ses.taiko-ch.net/images/top/bg_main.jpg");
+  background-size:  100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+}
+.main1-title-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-main1-images{
+  text-align: center;
+  
+
+  margin:0 auto;
+
+}
+
+
+.center-main1-images img{
+  width:30%;
+  
+}
+.image1 img{
+  width: 100%;
+}
+
+.banner-images img {
+  width:20%;
+}
+
+.main2{
+  width:100%;
+  background-size:  100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  background:url(https://taikops4-ses.taiko-ch.net/images/top/bg_news.png);
+  display: flex;
+  align-items: center;
+ 
+}
+
+.banner-line1{
+display: flex;
+}
+
+
+.banner-line2{
+display: flex;
+}
+
+
+
+
+
+.banner-line3{
+display: flex;
+}
+.image img{
+padding:8px;
+
+  width:100%;
+}
+.main3{
+  background: #0b031f;
+}
+.under{
+  display: flex;
+  justify-content: space-between;
+}
+.text-box{
+  color:white;
+}
+.images img{
+  width:100%;
+  padding-left:10px;
+  padding-right:10px;
+}
+.under-images{
+  display: flex;
+  
+}
+
+@media screen and (max-width:800px){
+  .nav-container{
+    flex-direction: column;
+  }
+
+  .banner-line1,.banner-line2,.banner-line3{
+    flex-direction: column;
+  }
+
+  .under{
+    flex-direction: column;
+  }
+  .text-box{
+    text-align:center;
+  }
+  .under-images{
+    flex-direction: column-reverse;
+    width:50%;
+    text-align: center;
+    margin:0 auto;
+  }
+}
+
+
+
+
+
+
