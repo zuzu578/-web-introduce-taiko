@@ -1,0 +1,60 @@
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+body{
+  
+background:url("https://wiiu.taiko-ch.net/images/top/bg_main.jpg") repeat-x top left;
+background-size:50%;
+;
+}
+.main1{
+  background:url("https://wiiu.taiko-ch.net/images/top/mv.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.logo-items{
+  text-align: center;
+}
+.logo-items img{
+  width:40%;
+}
+.nav-items{
+  text-align: center;
+}
+.nav-items img{
+  width:70%;
+}
+
+.main2{
+  width:100%;
+  background-size:100%;
+  background:url("https://wiiu.taiko-ch.net/images/top/spec.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+}
+.infor img{
+  width:100%;
+
+}
+
+.infor{
+  width:20%;
+}
+
+.infor-buttons{
+  width:20%;
+}
+.infor-buttons img{
+  width:100%;
+}
+
+.main3{
+  text-align: center;
+}
+.main3 img{
+  width:80%;
+}
