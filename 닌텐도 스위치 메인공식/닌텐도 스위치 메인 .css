@@ -1,0 +1,170 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.nav-container{
+background:#e70012;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.nav-items img{
+
+width:50%;
+}
+.right-items{
+  display: flex;
+}
+.main1-banner img{
+  width:100%;
+}
+.title{
+    padding: 0 20px;
+        font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.085em;
+}
+.main2-title-box{
+  display: flex;
+  align-items: center;
+  padding-top:70px;
+  padding-bottom:20px;
+
+}
+.sub-title{
+     
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+.game-images img{
+  width:100%;
+
+}
+.line-1{
+  display: flex;
+}
+
+.line-2{
+  display: flex;
+}
+
+.news{
+  color:#e70012;
+  font-size:13px;
+
+}
+.pinfor{
+      height: 54px;
+          font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom:70px;
+
+}
+
+.box{
+  margin-left:20px;
+  margin-right:10px;
+
+}
+.main3{
+  padding-top:40px;
+}
+.main3-banner img{
+  width:100%;
+}
+.h2-sub{
+ margin-left: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+   
+    vertical-align: bottom;
+}
+.main4-title-box{
+  display: flex;
+  align-items: center;
+    margin-left:30px;   
+}
+.main4{
+  padding-top:40px;
+  padding-bottom:30px;
+
+}
+.h2{
+      font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.085em;
+  
+}
+.game-line2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.game-line1{
+  display: flex;
+ justify-content: space-evenly;
+}
+.images2 img{
+  width:100%;
+}
+.main4-title-box{
+  padding-left:18px;
+  padding-bottom:20px;
+
+
+}
+.game-p{
+color: #e60012;
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}    
+.game-p2{
+    height: 36px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.line2-banner{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:50px;
+
+}
+.line1-banner{
+  display: flex;
+    justify-content: space-evenly;
+}
+
+.banner-items img{
+  width:100%;
+}
+@media screen and (max-width:800px) {
+  .line-1{
+    flex-direction: column;
+  }
+  .line-2{
+    flex-direction: column;
+  }
+  .game-line1{
+    flex-direction: column;
+  }
+  .game-line2{
+    flex-direction: column;
+  }
+  .line2-banner{
+    flex-direction: column;
+  }
+  .line1-banner{
+    flex-direction: column;
+  }
+}
