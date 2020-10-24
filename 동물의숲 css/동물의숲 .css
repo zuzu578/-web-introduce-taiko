@@ -1,0 +1,152 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+ 
+}
+.main-contents{
+   background:url("https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/visual_bg_pc.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  height:100vh;
+  
+}
+.header-items{
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
+}
+.items-images2 img{
+  width:100%;
+}
+.items-images1 img{
+  width:90%;
+}
+.under-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.under-items1 img{
+  width:100%;
+}
+.under-items2 img{
+  width:100%;
+}
+
+.main2-contents{
+  background:url("https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/content_bg_pc.png");
+  background-size:100%;
+ 
+
+}
+.main2-contents{
+  margin-top:100px;
+  padding-top:100px;
+}
+.title-images img{
+  width:10%;
+}
+.text-box{
+  display: flex;
+  justify-content: center;
+}
+
+.title-images{
+  text-align: center;
+}
+.title-images img{
+  text-align: center;
+
+}
+.date-p{
+  font-size:1vw;
+  font-weight: bold;
+  line-height: 30px;
+ 
+}
+.inforp{
+  font-size:1vw;
+  font-weight: bold;
+  line-height: 30px;
+}
+.images-center{
+  display: flex;
+}
+.images img{
+  width:100%;
+}
+.center-flex{
+  display: flex;
+  align-items: center;
+  padding-top:50px;
+  justify-content: space-evenly;
+}
+.images-f1 img{
+ width:100%;
+}
+.images-f1{
+  margin-right:40px;
+}
+.images-f2 img{
+ width:100%;
+}
+.main3-contents{
+  
+  
+  background-color: #ffeab3;
+ 
+}
+
+.road-images img{
+  width:70%;
+}
+.road-images{
+  text-align: center;
+  padding-top:100px;
+  
+}
+.line-1{
+  display: flex;
+}
+.manga-images img{
+  width:100%;
+}
+.main3-contents {
+  position: relative;
+  width:100%;
+}
+.manga-box{
+  
+ margin:0 auto;
+  width:635px;
+  position: absolute;
+  bottom:0;
+  top:50%;
+   left:27%;
+}
+@media screen and (max-width:900px) {
+  .header-items{
+    justify-content: center;
+  }
+  .under-container{
+    flex-direction: column;
+  }
+  .images-center{
+    flex-direction: column;
+  }
+  .center-flex{
+    flex-direction: column;
+  }
+  .images-f1{
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
