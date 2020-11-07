@@ -1,0 +1,173 @@
+body{
+  background-image:url("https://taiko.namco-ch.net/taiko/images/common/bg_img01.png");
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.title-images img{
+  width:70%;
+}
+.title-images{
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  
+}
+.nav-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size:1em;
+}
+.nav-items{
+  display: flex;
+}
+.nav{
+  padding-left:40px;
+  padding-right: 40px;
+  cursor: pointer;
+
+}
+.main-banner{
+  text-align: center;
+}
+.main-banner img{
+  width:80%;
+}
+.area-1{
+  background:url("https://taiko.namco-ch.net/taiko/images/common/bg_h2.png");
+  background-size: 100%;
+
+}
+.area-2{
+  position: relative;
+  background:url("https://taiko.namco-ch.net/taiko/images/top/bg_movie.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.banner-2{
+padding: 20px 0;
+
+
+}
+.banner-2 img{
+  width:100%;
+}
+.button-items{
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin:0 auto;
+  left:15%;
+  position: absolute;
+  top:30%;
+ 
+}
+.button1 img{
+  width:100%;
+
+}
+.button2 img{
+  width:100%;
+
+}
+.main{
+  text-align: center;
+  border-left:5px solid #ffb2cb;
+  border-right:5px solid #f6f75f;
+  border-top:5px solid RGB(186, 239, 252);
+  border-bottom:5px solid RGB(183, 245, 246);
+  margin-left:70px;
+  margin-right:70px;
+  margin-top:80px;
+
+  border-radius: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+      color: #525252;
+      font-size:20px;
+
+
+}
+.title{
+  text-align: center;
+  margin-top:20px;
+
+}
+.contents-box{
+  text-align: center;
+  margin-top:60px;
+
+}
+.h1-title{
+  padding-bottom:20px;
+  padding-top:20px;
+
+
+
+}
+.image-contents img{
+  width:50%;
+}
+.title-f{
+  padding-top:20px;
+
+}
+
+.image-box2{
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+.donder-hiroba img{
+width:30%;
+}
+.image-1 img{
+ width:90%;
+}
+
+.image-2 img{
+ width:90%;
+}
+.footer img{
+  width:100%;
+}
+.footer-area{
+  background:url("https://taiko.namco-ch.net/taiko/images/common/bg_footer.png");
+  text-align: center;
+}
+.triple{
+  display: flex;
+
+}
+.first1 img{
+  width:100%;
+}
+.first img{
+  width:40%;
+}
+.first{
+  padding-top:50px;
+  padding-bottom:20px;
+
+
+}
+@media screen and (max-width:800px) {
+  .nav-container{
+    flex-direction: column;
+  }
+  .image-box2{
+    flex-direction: column;
+  }
+  .button-items{
+    flex-direction: column;
+  }
+  
+}
